@@ -1,0 +1,3 @@
+<view>
+<button type="primary"  bindtouchmove="fn2">点我注册事件</button>
+</view>

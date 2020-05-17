@@ -1,0 +1,6 @@
+<view wx:for="{{list}}" wx:key="*this" wx:for-item="it" wx:for-index="i">
+{{it}}---{{i}}
+</view>
+<view wx:for="{{uses}}" wx:key="id">
+{{item.name}}
+</view>

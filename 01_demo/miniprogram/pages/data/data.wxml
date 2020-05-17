@@ -1,0 +1,20 @@
+<view>
+{{msg}}
+</view>
+<view>
+{{user.age}}----{{user.name}}
+</view>
+<view>
+{{user.age>=18?"成年人":"未成成年人"}}
+</view>
+<!-- 小程序的{{}}可以在属性中用 -->
+<!-- 小程序的{{}}中不能出现函数的调用 -->
+<view>
+<image src="{{imageUrl}}" mode="widthFix"></image>
+</view>
+<view>
+<checkbox checked="{{ischeck}}" color="red"></checkbox>
+</view>
+<view>
+{{msg}}
+</view>

@@ -1,0 +1,10 @@
+<!-- 通过wx:if来控制显示隐藏 通过增加或删除  需要频繁的切换-->
+<!-- hidden 元素是否隐藏  通过display:none来控制 要么显示 要么隐藏-->
+
+<view wx:if="{{isLogin}}">
+显示吗
+</view>
+<view hidden="{{isLogin2}}">
+会显示吗
+</view>
+<!-- block可以控制多个元素的显示和隐藏 -->
