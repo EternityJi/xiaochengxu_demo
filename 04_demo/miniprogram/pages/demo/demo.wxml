@@ -1,0 +1,3 @@
+<button bindtap="add">增加一个</button>
+<view bindtap="del" data-id='{{item.id}}' wx:for="{{list}}" wx:key="{{id}}">{{item.name}}</view>
+<navigator url="../index/index">点我跳转</navigator>

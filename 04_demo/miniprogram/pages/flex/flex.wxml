@@ -1,0 +1,8 @@
+<view class="father">
+<view class="son"></view>
+<view class="son"></view>
+<view class="son"></view>
+<view class="son"></view>
+<view class="son"></view>
+<view class="son"></view>
+</view>

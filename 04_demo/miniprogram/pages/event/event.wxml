@@ -1,0 +1,1 @@
+<view bindtap="fn" data-id="{{100}}" data-name="张三">1111</view>

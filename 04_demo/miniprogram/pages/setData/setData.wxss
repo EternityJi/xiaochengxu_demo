@@ -1,0 +1,9 @@
+/* pages/setData/setData.wxss */
+
+view{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  
+}
+@import '../../common.wxss';

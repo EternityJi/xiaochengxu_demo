@@ -1,0 +1,8 @@
+<view>
+{{msg}}
+</view>
+<button bindtap="change">点我修改数据
+
+</button>
+<input style="2px solid #ccc" placeholder="请输入内容" value=
+"{{msg}}" bindinput="fn1"></input>
