@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+page {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.todo-header{
+  border: 2rpx solid #ccc;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  padding:0 20rpx;
+  border-radius: 4rpx;
+  box-shadow:0 0 20rpx #ccc;
+}
+.todo-header image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.todo-header input{
+   font-size:32rpx;
+}
+/* 主体部分 */
+.todo-main{
+
+}
+.todo-main{
+border: 2rpx solid #ccc;
+margin-top:20rpx;
+border-bottom: none;
+}
+.todo-main .item{
+ border-bottom: 2rpx solid #ccc;
+  height: 80rpx;
+  display: flex;
+  /* justify-content:space-around; */
+  align-items: center;
+  padding:0 20rpx;
+  border-radius: 4rpx;
+  box-shadow:0 0 20rpx #ccc;
+}
+.todo-main .item text{
+  flex: 1;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.todo-main .item text.completed{
+  color: #999;
+  text-decoration: line-through;
+}
+.todo-main .item .clear{
+  margin-left: 100rpx;
+}
+/* 底部样式 */
+.todo-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top:20rpx;
+}
+.todo-footer text{
+  color: #ccc;
+}
+.todo-tips{
+    text-align: center;
+    margin-top:20rpx;
+    color: #999;
+}
+.todo-tips .title{
+   font-size: 100rpx;
+}

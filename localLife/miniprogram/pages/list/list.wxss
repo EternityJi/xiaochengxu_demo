@@ -1,0 +1,43 @@
+/* pages/list/list.wxss */
+.list{
+  display: flex;
+  padding-top:20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.list image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.list .text{
+  flex:4;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.list .text .inner{
+  font-size: 25rpx;
+  color: #ccc;
+   line-height: 40rpx;
+}
+.list .text .score{
+   height: 30rpx;
+   width: 50rpx;
+   background: red;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 20rpx;
+   border-radius: 20rpx;
+   position: absolute;
+   top:30rpx;
+   right: 30rpx;
+   color: white;
+}
+.tips{
+  text-align: center;
+  font-size: 28rpx;
+  background: #ccc;
+}

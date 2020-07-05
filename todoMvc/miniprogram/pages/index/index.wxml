@@ -1,0 +1,28 @@
+<!-- 头部 -->
+<view class="todo-header">
+ <image src="../../images/plus.png"></image>
+ <input placeholder="Anything Here..." bindinput="get" bindconfirm="finish" value="{{temp}}"></input>
+</view>
+<!-- 主体 -->
+<block wx:if="{{list.length>0}}">
+<view class="todo-main">
+<view class="item" wx:for="{{list}}" wx:key="{{id}}">
+  <icon bindtap="change" data-id="{{item.id}}" size="18" type="{{item.completed ? 'success':'circle'}}"></icon>
+  <text class="{{item.completed? 'completed':''}}">{{item.name}}</text>
+  <icon size="18" type="clear" color="#ccc" class="clear" bindtap="del" data-id="{{item.id}}"></icon>
+</view>
+</view>
+<!-- 尾部 -->
+<view class="todo-footer">
+<text bindtap="click"> total all</text>
+<text> {{unfinish}} items left</text>
+<text  bindtap="clearall">clear completed</text>
+</view>
+</block>
+<block wx:else>
+    <!-- 提示消息 -->
+    <view class="todo-tips">
+       <view class="title">恭喜你</view>
+       <view class="content">没有剩余的完成</view>
+    </view>
+</block>

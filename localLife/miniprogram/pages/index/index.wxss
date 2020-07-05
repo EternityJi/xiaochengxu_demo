@@ -1,0 +1,67 @@
+Page{
+  background: #eee;
+}
+.banner image{
+  width: 100%;
+  height: 360rpx;
+}
+swiper{
+  width: 100%;
+  height: 360rpx;
+}
+/* 导航样式 */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+}
+.nav-item{
+  width: 250rpx;
+  height: 250rpx;
+  border-right: 2rpx solid #ccc;
+  border-bottom: 2rpx solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.nav-item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.nav-item text{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.nav-item:nth-child(3n){
+  border-right: none;
+}
+.nav-item:nth-child(1){
+  border-top: 1px solid #ccc;
+}
+.nav-item:nth-child(2){
+  border-top: 1px solid #ccc;
+}
+.nav-item:nth-child(3){
+  border-top: 1px solid #ccc;
+}
+/* 底部 */
+.bottom{
+  display: flex;
+  margin-top:15rpx;
+  margin-bottom: 15rpx;
+  background: #fff;
+}
+.bottom .bottom-item{
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 200rpx;
+}
+.bottom .bottom-item image{
+  width:330rpx ;
+  height: 150rpx;
+}

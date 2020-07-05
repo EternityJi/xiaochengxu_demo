@@ -1,0 +1,99 @@
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 列表样式 -->
+<view class="list">
+ <image src="../../images/liebiao_03.jpg"></image>
+ <view class="text">
+ <text>宫廷月亮虾饼</text>
+ <text class="inner">电话:15530710686</text>
+ <text  class="inner">地址:15530710686</text>
+ <text  class="inner">营业时间:周一至周五10:00-21：00</text>
+ <text class="score">100</text>
+ </view>
+</view>
+<!-- 列表结束 -->
+<!-- 底部开始 -->
+<text class="tips">{{hasMore?'数据正在加载中,请稍后':'已经到底部了数据已经加载完了'}}</text>
+<!-- 底部结束 -->
